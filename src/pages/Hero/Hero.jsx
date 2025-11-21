@@ -118,7 +118,7 @@ const profile = {
 
               {/* Name section */}
               <div className="relative mb-6 sm:mb-8">
-                <h1 className="text-[clamp(2rem,8vw,4.5rem)] sm:text-[clamp(2.5rem,10vw,5.5rem)] lg:text-[clamp(3rem,12vw,7rem)] font-bold leading-tight">
+                <h1 className="text-[clamp(1.75rem,7vw,4rem)] sm:text-[clamp(2.25rem,9vw,5rem)] lg:text-[clamp(2.75rem,11vw,6.5rem)] font-bold leading-tight">
                   <SparklesText text="Hello" />
                   <span className="relative inline-block">
                     I&apos;m
