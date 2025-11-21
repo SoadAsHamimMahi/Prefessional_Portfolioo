@@ -6,45 +6,45 @@ import Particles from "@/components/Particles";
 
 const projects = [
   {
-    title: "Olova! A Lightweight JavaScript Library",
+    title: "Stock Metadata Generator",
     description:
-      "A lightweight JavaScript library for creating beautiful, responsive UI components.",
+      "Stock Metadata Generator is an AI‑assisted tool for creating high‑quality, platform‑ready metadata for stock content libraries. It generates optimized titles, descriptions, and keyword sets for microstock platforms such as Adobe Stock, Shutterstock, and Freepik, with a focus on platform rules, discoverability, and commercial safety. The application is built as a modern Next.js 14 app with a rich, interactive UI for uploading images/video, configuring generation options, validating outputs, and exporting metadata as CSV.",
     src: "rock.jpg",
-    link: "https://i.postimg.cc/DwgWTfP0/Annotation-2025-03-19-113338.png",
+    link: "https://i.ibb.co.com/DDbqhfyz/Screenshot-2025-11-22-002923.png",
     color: "#5196fd",
-    githubLink: "https://github.com/olovajs/olova",
-    liveLink: "https://olova.js.org/",
+    githubLink: "https://github.com/SoadAsHamimMahi/Stock-Metadata-Gen",
+    liveLink: "https://csvmest.netlify.app/",
   },
   {
-    title: "A sleek portfolio built with React and Tailwind CSS ",
+    title: "FB Invite & Smart Replies",
     description:
-      "A sleek portfolio built with React and Tailwind CSS to showcase your skills, projects, and experience in a modern design.",
+      "A Chrome extension that automates Facebook interactions with AI-powered comment replies and automated page invitations.",
     src: "tree.jpg",
-    link: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
+    link: "https://i.ibb.co.com/S7fQ34rk/Screenshot-2025-11-22-010205.png",
     color: "#8f89ff",
-    githubLink: "https://github.com/seraprogrammer/portfolio",
-    liveLink: "https://codervai.vercel.app",
+    githubLink: "https://github.com/SoadAsHamimMahi/FB-Invite-Smart-Replies",
+    liveLink: "https://drive.google.com/file/d/1B5BvKBZIYOAoF7y5g-F6UM-9dMmaqoEt/view?usp=sharing",
   },
-  {
-    title: "🚀 CodeWhisperer",
-    description:
-      "🚀 CodeWhisperer A powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
-    src: "water.jpg",
-    link: "https://i.postimg.cc/J4jPVFY0/Annotation-2025-04-01-204723.png",
-    color: "#fff",
-    githubLink: "https://github.com/seraprogrammer/codewhisperer",
-    liveLink: "https://codewhisperer.vercel.app/",
-  },
-  {
-    title: "CodeKori 🔥",
-    description:
-      "CodeKori is a powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
-    src: "house.jpg",
-    link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
-    color: "#ed649e",
-    githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
-  },
+  // {
+  //   title: "🚀 CodeWhisperer",
+  //   description:
+  //     "🚀 CodeWhisperer A powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
+  //   src: "water.jpg",
+  //   link: "https://i.postimg.cc/J4jPVFY0/Annotation-2025-04-01-204723.png",
+  //   color: "#fff",
+  //   githubLink: "https://github.com/seraprogrammer/codewhisperer",
+  //   liveLink: "https://codewhisperer.vercel.app/",
+  // },
+  // {
+  //   title: "CodeKori 🔥",
+  //   description:
+  //     "CodeKori is a powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
+  //   src: "house.jpg",
+  //   link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
+  //   color: "#ed649e",
+  //   githubLink: "https://github.com/seraprogrammer/CodeKori",
+  //   liveLink: "https://codekori.js.org",
+  // },
 ];
 
 export default function Projects() {
