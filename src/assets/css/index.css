@@ -162,6 +162,25 @@ html:not(.dark) body {
 .animate-float { animation: float 6s ease-in-out infinite; }
 .animate-gridPulse { animation: gridPulse 3s ease-in-out infinite; }
 
+/* Swap-style vertical motion (used in scroll indicator) */
+@keyframes swap-y {
+  0%,
+  20% {
+    transform: translateY(-4px);
+  }
+  50%,
+  70% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(4px);
+  }
+}
+
+.animate-swap-y {
+  animation: swap-y 1.1s ease-in-out infinite;
+}
+
 @keyframes slideDown {
   from {
     opacity: 0;

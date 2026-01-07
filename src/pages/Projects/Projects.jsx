@@ -5,6 +5,7 @@ import PropTypes from "prop-types";
 import Particles from "@/components/Particles";
 import StockCSV from "@/assets/images/Projects/StockCSV.png";
 import OvarianAID from "@/assets/images/Projects/OvarianAID.png";
+import MovieRating from "@/assets/images/Projects/MovieRating.png";
 
 const projects = [
   {
@@ -26,6 +27,17 @@ const projects = [
     color: "#047857",
     githubLink: "https://github.com/SoadAsHamimMahi/OvarianAID_Classification",
     liveLink: "https://deluxe-custard-e6611b.netlify.app/",
+  },
+  {
+    title: "IMDb Rating Predictor",
+    description:
+      "A full-stack machine learning web app that predicts IMDb movie ratings using a weighted ensemble of Random Forest and XGBoost models. It features a FastAPI backend, modern React + Tailwind UI, real-time verdict classification (Flop, Hit, Super Hit), and built-in API docs and health monitoring.",
+    src: "MovieRating.png",
+    link: MovieRating,
+    color: "#f97316",
+    githubLink: "https://github.com/SoadAsHamimMahi/Movie-IMDb-Rating-Prediction",
+    liveLink:
+      "https://drive.google.com/file/d/1m1mak0zMixhJ_5wRl2tpKhYULsNrGauV/view?usp=sharing",
   },
   {
     title: "FB Invite & Smart Replies",
@@ -66,7 +78,6 @@ export default function Projects() {
     offset: ["start start", "end end"],
   });
 
-
   return (
     <ReactLenis root>
       <main className="bg-slate-950 dark:bg-slate-950 relative" ref={container}>
@@ -100,6 +111,30 @@ export default function Projects() {
             );
           })}
         </section>
+
+        {/* Scroll indicator to hint there are more projects (always visible) */}
+        <div className="pointer-events-none fixed bottom-6 left-1/2 -translate-x-1/2 z-40 flex flex-col items-center gap-3">
+          <span className="text-xs md:text-sm text-gray-400">
+            Scroll to explore all projects
+          </span>
+
+          {/* Swapping-style scroll / swipe button */}
+          <button
+            type="button"
+            className="pointer-events-auto group inline-flex items-center gap-2 rounded-full border border-blue-500/70 bg-blue-500/10 px-4 py-2 text-[11px] md:text-xs text-gray-100 shadow-[0_0_20px_rgba(59,130,246,0.35)] backdrop-blur-sm"
+          >
+            <span className="uppercase tracking-[0.15em] text-[10px] md:text-[11px] text-gray-300">
+              Scroll / Swipe
+            </span>
+
+            <span className="relative h-6 w-6 overflow-hidden rounded-full border border-blue-400/70 bg-slate-950 flex items-center justify-center">
+              <span className="flex flex-col items-center justify-center gap-1 animate-swap-y">
+                <i className="fas fa-chevron-down text-[11px] text-blue-300" />
+                <i className="fas fa-chevron-down text-[11px] text-blue-500/80" />
+              </span>
+            </span>
+          </button>
+        </div>
       </main>
     </ReactLenis>
   );
