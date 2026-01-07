@@ -33,14 +33,15 @@ const GridBackground = () => {
 
 export default function Hero() {
   const words = [
-    "Frontend Developer",
+    "Full Stack Developer",
     "MERN Enthusiast",
-    "Creator of Hire Mistri",
+    "Stock Contributor",
+    "Content Creator",
   ];
 
   const [code] = useState(`
 const profile = {
-  role: 'Frontend Developer',
+  role: 'Frontend Developer | Full Stack Developer',
   expertise: [
     'HTML', 'CSS', 'Tailwind CSS', 'JavaScript',
     'React', 'Node.js', 'Express', 'MongoDB', 'Git & GitHub'
@@ -112,7 +113,7 @@ const profile = {
               <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-2 rounded-full bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 mb-6 sm:mb-8 animate__animated animate__fadeInDown animate__delay-1s">
                 <div className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></div>
                 <span className="text-gray-300 text-xs sm:text-sm font-medium">
-                  Welcome to my universe
+                  Welcome to my Portfolio
                 </span>
               </div>
 
@@ -145,7 +146,7 @@ const profile = {
               {/* Description */}
               <div className="relative mb-8 sm:mb-12 max-w-xl">
                 <p className="text-base sm:text-xl text-gray-300/90 leading-relaxed">
-                 MERN Developer 💻 | Frontend Developer ✨ | Creator of Hire Mistri 🔧  
+                 MERN Developer 💻 | Full Stack Developer ✨ | Stock Contributor 📈 | Content Creator 📱  
                 </p>
               </div>
 
