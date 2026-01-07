@@ -3,17 +3,29 @@ import { useTransform, motion, useScroll } from "framer-motion";
 import { useRef, useEffect } from "react";
 import PropTypes from "prop-types";
 import Particles from "@/components/Particles";
+import StockCSV from "@/assets/images/Projects/StockCSV.png";
+import OvarianAID from "@/assets/images/Projects/OvarianAID.png";
 
 const projects = [
   {
     title: "Stock Metadata Generator",
     description:
       "Stock Metadata Generator is an AI‑assisted tool for creating high‑quality, platform‑ready metadata for stock content libraries. It generates optimized titles, descriptions, and keyword sets for microstock platforms such as Adobe Stock, Shutterstock, and Freepik, with a focus on platform rules, discoverability, and commercial safety. The application is built as a modern Next.js 14 app with a rich, interactive UI for uploading images/video, configuring generation options, validating outputs, and exporting metadata as CSV.",
-    src: "rock.jpg",
-    link: "https://i.ibb.co.com/DDbqhfyz/Screenshot-2025-11-22-002923.png",
+    src: "StockCSV.png",
+    link: StockCSV,
     color: "#5196fd",
     githubLink: "https://github.com/SoadAsHamimMahi/Stock-Metadata-Gen",
-    liveLink: "https://csvmest.netlify.app/",
+    liveLink: "https://stockcsv.online/",
+  },
+  {
+    title: "OvarianAID",
+    description:
+      "OvarianAID is a web-based medical image classification tool that uses TensorFlow.js to run AI models directly in the browser, helping clinicians explore ovarian cancer risk from histology images in real time. It is a privacy-focused thesis project, designed for research and educational decision support only and not as a replacement for professional medical diagnosis.",
+    src: "OvarianAID.png",
+    link: OvarianAID,
+    color: "#047857",
+    githubLink: "https://github.com/SoadAsHamimMahi/OvarianAID_Classification",
+    liveLink: "https://deluxe-custard-e6611b.netlify.app/",
   },
   {
     title: "FB Invite & Smart Replies",
